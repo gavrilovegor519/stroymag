@@ -21,7 +21,7 @@ function Contacts() {
                     <form action={() => alert("Сообщение отправлено")}>
                         <input type='text' placeholder='ФИО' />
                         <input type='email' placeholder='E-Mail' />
-                        <textarea placeholder='ФИО' />
+                        <textarea placeholder='Текст сообщения' />
                         <button>Отправить</button>
                     </form>
                     <h2>Карта</h2>
