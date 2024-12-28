@@ -9,6 +9,7 @@ function Header() {
             <ul>
                 <li><Link to='/services' className='links'>Услуги</Link></li>
                 <li><Link to='/about' className='links'>О нас</Link></li>
+                <li><Link to='/contacts' className='links'>Контакты</Link></li>
             </ul>
         </div>
     )

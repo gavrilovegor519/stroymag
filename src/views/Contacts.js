@@ -1,0 +1,26 @@
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import './Contacts.css';
+
+function Contacts() {
+    return (
+        <>
+            <Header />
+            <div className='Contacts'>
+                <div className='main'>
+                    <h1>Контакты</h1>
+                    <p>Адрес: г. Москва, ул. Примерная д. 10</p>
+                    <p>Телефон: 8 (999) 177-17-17</p>
+                    <p>Электронная почта: info@architecturecomfort.ru</p>
+                    <h2>Часы работы:</h2>
+                    <p>Пн - Пт: 10:00 - 19:00</p>
+                    <p>Сб: 10:00 - 16:00</p>
+                    <p>Вс: выходной</p>
+                </div>
+            </div>
+            <Footer />
+        </>
+    )
+}
+
+export default Contacts;
