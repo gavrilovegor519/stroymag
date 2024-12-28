@@ -1,0 +1,12 @@
+.Services {
+    min-height: calc(100vh - 100px - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.Services .main {
+    max-width: 800px;
+}

@@ -7,3 +7,14 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.Header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header ul li .links {
+    color: white;
+    text-decoration: none;
+}

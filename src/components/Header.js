@@ -1,13 +1,14 @@
 import './Header.css'
 import logo from '../media/lotop-dlya-stroitelnoy-kompanii-1024x576.jpg'
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
-    const navigate = useNavigate();
-
     return(
         <div className='Header'>
-            <img src={logo} alt='Логотип сайта' height='70px' onClick={navigate('/')} />
+            <Link to='/'><img src={logo} alt='Логотип сайта' height='70px'/></Link>
+            <ul>
+                <li><Link to='/services' className='links'>Услуги</Link></li>
+            </ul>
         </div>
     )
 }
