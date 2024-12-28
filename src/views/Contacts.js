@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Contacts.css';
+import image from '../media/hsdjh.png';
 
 function Contacts() {
     return (
@@ -16,6 +17,8 @@ function Contacts() {
                     <p>Пн - Пт: 10:00 - 19:00</p>
                     <p>Сб: 10:00 - 16:00</p>
                     <p>Вс: выходной</p>
+                    <h2>Карта</h2>
+                    <img src={image} alt='Карта' />
                 </div>
             </div>
             <Footer />
