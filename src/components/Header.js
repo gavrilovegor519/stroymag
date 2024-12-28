@@ -1,5 +1,5 @@
-import './Header.css'
-import logo from '../media/lotop-dlya-stroitelnoy-kompanii-1024x576.jpg'
+import './Header.css';
+import logo from '../logo.webp';
 import { Link } from 'react-router-dom';
 
 function Header() {
