@@ -1,6 +1,11 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Services.css'
+import image1 from '../media/1-72.jpg';
+import image2 from '../media/1ef964458a78dd2d45fc3369d8e6eb1a.jpg';
+import image3 from '../media/3-2.jpg';
+import image4 from '../media/3aee376f2acd463099ab11c3fb489bfe9166e62c.jpg';
+import image5 from '../media/5d6b8e9504d9a8ef3ac17aedb1af88f1.jpg';
 
 function Services() {
     return (
@@ -38,6 +43,12 @@ function Services() {
                         <li>Выбор материалов: Консультации по выбору строительных и отделочных материалов, их характеристикам и стоимости.</li>
                         <li>Сопровождение проекта: Поддержка на всех этапах строительства, включая контроль качества работ и соблюдение сроков.</li>
                     </ul>
+                    <h2>Наше портфолио</h2>
+                    <img src={image1} alt='Изображение 1' />
+                    <img src={image2} alt='Изображение 2' />
+                    <img src={image3} alt='Изображение 3' />
+                    <img src={image4} alt='Изображение 4' />
+                    <img src={image5} alt='Изображение 5' />
                 </div>
             </div>
             <Footer />
