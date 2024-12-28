@@ -17,6 +17,13 @@ function Contacts() {
                     <p>Пн - Пт: 10:00 - 19:00</p>
                     <p>Сб: 10:00 - 16:00</p>
                     <p>Вс: выходной</p>
+                    <h2>Форма обратной связи</h2>
+                    <form action={() => alert("Сообщение отправлено")}>
+                        <input type='text' placeholder='ФИО' />
+                        <input type='email' placeholder='E-Mail' />
+                        <textarea placeholder='ФИО' />
+                        <button>Отправить</button>
+                    </form>
                     <h2>Карта</h2>
                     <img src={image} alt='Карта' />
                 </div>

@@ -9,8 +9,27 @@
 
 .Contacts .main {
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Contacts .main img {
     max-width: 800px;
+}
+
+.Contacts .main form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.Contacts .main form input,
+.Contacts .main form textarea {
+    margin-bottom: 10px;
+}
+
+.Contacts .main form button {
+    background-color: rgb(26, 236, 166);
 }
