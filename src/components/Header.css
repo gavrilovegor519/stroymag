@@ -14,6 +14,10 @@
     flex-direction: row;
 }
 
+.Header ul li {
+    margin-right: 10px;
+}
+
 .Header ul li .links {
     color: white;
     text-decoration: none;
